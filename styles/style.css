@@ -22,6 +22,7 @@
   font-size: 18px;
   color: #000;
 }
+
 .header__nav-item {
   list-style: none;
   text-decoration: none;  
@@ -111,7 +112,7 @@
   letter-spacing: 0.1em;
 }
 
-.cover__titel-text-center{
+.cover__titel-text-center {
   padding-bottom: 10px;
   padding-left: 286px;
   line-height: 100%;
@@ -128,7 +129,7 @@
   padding-left: 585px;
 }
 
-.text__right-start-leter-space{
+.text__right-start-leter-space {
   letter-spacing: 0.55em;
 }
 
