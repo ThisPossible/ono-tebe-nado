@@ -25,7 +25,7 @@
 
 .header__nav-item {
   list-style: none;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .header__item-link-current {
@@ -94,7 +94,7 @@
 }
 
 .cover__titel-text {
-  display: block; 
+  display: block;
 }
 
 .cover__titel-text-left {
@@ -155,7 +155,7 @@
   padding: 12px 32px 11px 31px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
 }
 
 .lots {
@@ -230,7 +230,7 @@
 }
 
 .list__item-second {
-  background-image: url(../images/card-lot-02.jpg);  
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .list__item-third {
