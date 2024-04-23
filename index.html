@@ -49,10 +49,6 @@
     <main>
       <section class="cover">
         <div class="overlay">
-          <img 
-            class="cover__image"
-            src="./images/cover.jpg"
-            alt="картинка фона маслеными красками">
           <h1 class="cover__titel">
             <span class="cover__titel-text-left cover__titel-text">
               <span class="text__left-start-leter-space">О</span>н
@@ -66,9 +62,11 @@
             <h2 class="cover__description-text">
               аукцион вещей, в которые никто не верил
             </h2>
-            <a class="bet-button" href="#">
-              Сделать ставку
-            </a>
+            <button class="bet-button">
+              <a class="bet-button-link" href="#">
+                Сделать ставку
+              </a>
+            </button>
           </div>
         </div>
       </section>
@@ -78,39 +76,27 @@
           <ul class="lots__cards-list">
             <li class="lots__cards-list_item">
               <a
-                class="lots__cards-list_item-link"
+                class="lots__cards-list_item-link "
                 href="#">
-                <div class="overlay">
-                  <article class="lots__cards">
-                    <img 
-                      class="lots__image-1"
-                      src="./images/card-lot-01.jpg"
-                      alt="мальчик причесывается на фоне поля с цветами,
-                       а девочка держит зеркало"
-                    >
-                    <h3 class="card__title">
+                <article class="lots__cards first-card">
+                  <div class="overlay">
+                    <h3 class="card__title card__title-first-card">
                       Фильм режиссёра, который бросил киношколу
                     </h3>
                     <p class="lots__cards-list_item-text">
                       Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
                       если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                     </p>
-                  </article>
-                </div>
+                  </div>
+                </article>
               </a>
             </li>
             <li class="lots__cards-list_item">
               <a 
                 class="lots__cards-list_item-link"
                 href="#">
-                <div class="overlay">
-                  <article class="lots__cards second-card">
-                    <img 
-                      class="lots__image-1"
-                      src="./images/card-lot-02.jpg"
-                      alt="на фоне картинка с ручкой входной двери в виде головы льва, а
-                      вверху надпись Джеймс Джойс Уиллис иностранка"
-                    >
+                <article class="lots__cards second-card">
+                  <div class="overlay">
                     <h3 class="card__title">
                       Книга, где описан один скучный день из жизни рекламного агента
                     </h3>
@@ -120,23 +106,17 @@
                       литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера.
                       Сколько бы вы поставили на «Улисса» Джеймса Джойса?
                     </p>
-                  </article>
-                </div>
+                  </div>
+                </article>
               </a>
             </li>
             <li class="lots__cards-list_item list__item-third">
               <a 
                 class="lots__cards-list_item-link"
                 href="#">
-                <div class="overlay">
-                  <article class="lots__cards">
-                    <img 
-                      class="lots__image-1"
-                      src="./images/card-lot-03.jpg"
-                      alt="на фоне картинка с изображением современной живописи в виде полосок,
-                      треугольников и штрихов"
-                    >
-                    <h3 class="card__title">
+                <article class="lots__cards third-card">
+                  <div class="overlay">
+                    <h3 class="card__title card__title-third-card">
                       Картина, которую повторит даже 5-летний сын маминой подруги
                     </h3>
                     <p class="lots__cards-list_item-text">
@@ -144,8 +124,8 @@
                       инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое
                       поставили, если бы не знали, что это — одна из революционных работ Кандинского?
                     </p>
-                  </article>
-                </div>
+                  </div>
+                </article>
               </a>
             </li>
           </ul>
@@ -166,7 +146,7 @@
             </a>
           </div>
         </div>
-        <section class="about__auction"> <!--подумать чем заменить section по семантике-->
+        <section class="about__auction">
           <h2 class="about__auction-header">Об аукционе</h2>
           <p class="about__auction-paragraph auction__paragraph-first">
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
