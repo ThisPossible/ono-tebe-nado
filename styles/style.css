@@ -37,7 +37,7 @@
 }
 
 .header-logo__link {
-  margin: 0 184px 0 36px;
+  margin: 0 194px 0 46px;
   display: block;
   width: 129px;
   height: 104px;
@@ -174,7 +174,7 @@
 }
 
 .lots-cards-list__item {
-  max-width: 334px;
+  width: 334px;
   list-style: none;
   min-height: 563px;
 }
@@ -217,8 +217,6 @@
 }
 
 .card_type_book {
-  justify-content: center;
-  align-items: center;
   background-image: url(../images/card-lot-02.jpg);
 }
 
@@ -299,6 +297,10 @@ letter-spacing: 0.03em;
 
 .about-letter-space_too_increase {
   letter-spacing: 0.04em;
+}
+
+.about-letter-space_too_reduce {
+  letter-spacing: 0.01em;
 }
 
 .footer {
